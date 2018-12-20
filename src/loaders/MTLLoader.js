@@ -153,18 +153,6 @@ MTLLoader.prototype = {
 
                 } else {
 
-                    //FIX: support for Wavefront material file
-                    
-                    if ( key === 'tr' ) {
-                        
-                        if ( value === '1.000000' ) {
-                            
-                            value = "0.000000";
-                            
-                        }
-                        
-                    }
-                    
                     info[ key ] = value;
 
                 }

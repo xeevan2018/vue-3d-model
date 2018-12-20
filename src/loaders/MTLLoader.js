@@ -159,7 +159,8 @@ MTLLoader.prototype = {
                         
                         if ( value === '1.000000' ) {
                             
-                            value = "0.000000"
+                            value = "0.000000";
+                            
                         }
                         
                     }

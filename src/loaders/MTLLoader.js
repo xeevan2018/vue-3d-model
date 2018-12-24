@@ -153,6 +153,11 @@ MTLLoader.prototype = {
 
                 } else {
 
+                    if ( key === 'tr' && value === '1.000000' ) {
+                        value = '0.000000';
+                        console.log('mtl tr 1.000000 -> 0.000000');
+                    }
+
                     info[ key ] = value;
 
                 }
